@@ -15,8 +15,7 @@ module VagrantPlugins
       DESC
 
       action_hook(:install_nfs, Plugin::ALL_ACTIONS) do |hook|
-        require_relative "action/install_nfs"
-        hook.before(Vagrant::Action::Builtin::NFS, Action::InstallNFS)
+        hook.before(Vagrant::Action::Builtin::NFS, VagrantPlugins::NFS::Action::InstallNFS)
       end
 
     end
