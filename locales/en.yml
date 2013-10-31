@@ -1,0 +1,5 @@
+en:
+  vagrant-nfs:
+    action:
+      installed: "NFS package installed."
+      installing: "Installing NFS package..."
