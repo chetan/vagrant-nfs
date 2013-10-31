@@ -1,7 +1,6 @@
 
 require 'vagrant'
 require 'vagrant-nfs/plugin'
-require 'vagrant-nfs/config'
 
 module VagrantPlugins
   module NFS
